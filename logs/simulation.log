@@ -1,0 +1,728 @@
+[2026-04-26 09:55:07] [INFO] Generating synthetic dataset...
+[2026-04-26 09:55:07] [INFO] Dataset saved to data/dataset.pkl
+[2026-04-26 09:55:07] [INFO] Dataset: 10 edge nodes, 50 requests
+[2026-04-26 09:55:07] [INFO] 
+========== Random Baseline ==========
+[2026-04-26 09:55:07] [INFO]   [Req   1] nodes=['EN_3', 'EN_8'] AoI=3.405  Cost=27.165  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req   2] nodes=['EN_3'] AoI=2.313  Cost=8.417  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req   3] nodes=['EN_4'] AoI=1.808  Cost=7.384  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req   4] nodes=['EN_6'] AoI=2.335  Cost=8.875  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req   5] nodes=['EN_5'] AoI=1.835  Cost=8.668  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req   6] nodes=['EN_7', 'EN_8', 'EN_7'] AoI=5.425  Cost=27.179  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req   7] nodes=['EN_1', 'EN_3'] AoI=3.049  Cost=24.497  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req   8] nodes=['EN_3', 'EN_1', 'EN_5'] AoI=3.171  Cost=19.714  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req   9] nodes=['EN_0', 'EN_9'] AoI=2.922  Cost=23.992  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  10] nodes=['EN_3'] AoI=1.922  Cost=8.417  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  11] nodes=['EN_4', 'EN_0'] AoI=2.801  Cost=21.636  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  12] nodes=['EN_1', 'EN_0'] AoI=2.792  Cost=22.429  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  13] nodes=['EN_3'] AoI=1.912  Cost=1.926  mig=0
+[2026-04-26 09:55:07] [INFO]   [Req  14] nodes=['EN_1'] AoI=1.779  Cost=8.055  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  15] nodes=['EN_0', 'EN_6'] AoI=3.870  Cost=24.587  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  16] nodes=['EN_1'] AoI=1.790  Cost=1.564  mig=0
+[2026-04-26 09:55:07] [INFO]   [Req  17] nodes=['EN_8'] AoI=2.023  Cost=9.555  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  18] nodes=['EN_3', 'EN_4', 'EN_7'] AoI=4.470  Cost=25.695  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  19] nodes=['EN_3', 'EN_8', 'EN_2'] AoI=4.745  Cost=22.050  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  20] nodes=['EN_8', 'EN_4'] AoI=4.899  Cost=24.231  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  21] nodes=['EN_7', 'EN_7', 'EN_4'] AoI=5.463  Cost=17.898  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  22] nodes=['EN_1', 'EN_1', 'EN_6'] AoI=3.330  Cost=19.447  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  23] nodes=['EN_5', 'EN_6', 'EN_7'] AoI=4.936  Cost=20.518  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  24] nodes=['EN_7', 'EN_0', 'EN_1'] AoI=6.015  Cost=17.692  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  25] nodes=['EN_0', 'EN_6', 'EN_5'] AoI=6.642  Cost=26.737  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  26] nodes=['EN_1', 'EN_3'] AoI=5.668  Cost=24.497  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  27] nodes=['EN_4', 'EN_4', 'EN_9'] AoI=3.463  Cost=25.023  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  28] nodes=['EN_8', 'EN_3', 'EN_6'] AoI=4.914  Cost=21.742  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  29] nodes=['EN_2', 'EN_4'] AoI=3.840  Cost=23.631  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  30] nodes=['EN_7', 'EN_3', 'EN_1'] AoI=4.393  Cost=26.182  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  31] nodes=['EN_7', 'EN_8', 'EN_1'] AoI=5.742  Cost=27.391  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  32] nodes=['EN_0'] AoI=1.792  Cost=7.367  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  33] nodes=['EN_8', 'EN_0', 'EN_1'] AoI=7.142  Cost=27.796  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  34] nodes=['EN_3', 'EN_2', 'EN_6'] AoI=6.109  Cost=29.016  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  35] nodes=['EN_7', 'EN_7'] AoI=5.391  Cost=23.376  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  36] nodes=['EN_3'] AoI=1.922  Cost=8.417  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  37] nodes=['EN_7', 'EN_0'] AoI=3.445  Cost=22.276  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  38] nodes=['EN_2'] AoI=2.688  Cost=9.046  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  39] nodes=['EN_6', 'EN_0', 'EN_7'] AoI=5.126  Cost=26.445  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  40] nodes=['EN_4', 'EN_7', 'EN_4'] AoI=6.916  Cost=17.245  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  41] nodes=['EN_6', 'EN_8'] AoI=4.852  Cost=27.706  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  42] nodes=['EN_7', 'EN_2', 'EN_3'] AoI=7.537  Cost=20.257  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  43] nodes=['EN_4'] AoI=4.644  Cost=7.384  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  44] nodes=['EN_3'] AoI=7.035  Cost=8.417  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  45] nodes=['EN_0', 'EN_9'] AoI=2.922  Cost=23.992  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  46] nodes=['EN_0'] AoI=2.036  Cost=7.367  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  47] nodes=['EN_5'] AoI=1.854  Cost=8.668  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  48] nodes=['EN_0', 'EN_0', 'EN_9'] AoI=2.938  Cost=17.442  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  49] nodes=['EN_7', 'EN_8', 'EN_8'] AoI=4.075  Cost=21.873  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req  50] nodes=['EN_2', 'EN_0', 'EN_8'] AoI=5.229  Cost=29.399  mig=1
+[2026-04-26 09:55:07] [INFO] 
+========== Greedy Brute-Force ==========
+[2026-04-26 09:55:07] [INFO]   [Req   1] nodes=['EN_0', 'EN_0'] AoI=2.788  Cost=21.617  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req   2] nodes=['EN_4'] AoI=1.774  Cost=7.384  mig=1
+[2026-04-26 09:55:07] [INFO]   [Req   3] nodes=['EN_4'] AoI=1.808  Cost=0.893  mig=0
+[2026-04-26 09:55:07] [INFO]   [Req   4] nodes=['EN_4'] AoI=1.803  Cost=0.893  mig=0
+[2026-04-26 09:55:07] [INFO]   [Req   5] nodes=['EN_4'] AoI=2.150  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO] Generating synthetic dataset...
+[2026-04-26 10:23:33] [INFO] Dataset saved to data/dataset.pkl
+[2026-04-26 10:23:33] [INFO] Dataset: 10 edge nodes, 50 requests
+[2026-04-26 10:23:33] [INFO] 
+========== Random Baseline ==========
+[2026-04-26 10:23:33] [INFO]   [Req   1] nodes=['EN_3'] AoI=3.415  Cost=8.710  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req   2] nodes=['EN_8'] AoI=3.371  Cost=9.555  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req   3] nodes=['EN_3'] AoI=3.304  Cost=8.417  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req   4] nodes=['EN_4'] AoI=3.180  Cost=7.384  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req   5] nodes=['EN_6'] AoI=3.682  Cost=8.875  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req   6] nodes=['EN_5', 'EN_7', 'EN_8'] AoI=8.626  Cost=21.652  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req   7] nodes=['EN_7'] AoI=6.334  Cost=7.860  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req   8] nodes=['EN_1'] AoI=3.872  Cost=6.244  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req   9] nodes=['EN_3'] AoI=3.415  Cost=8.710  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  10] nodes=['EN_3'] AoI=4.144  Cost=8.417  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  11] nodes=['EN_1'] AoI=3.223  Cost=8.084  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  12] nodes=['EN_5'] AoI=3.357  Cost=9.145  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  13] nodes=['EN_0'] AoI=3.158  Cost=7.367  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  14] nodes=['EN_9'] AoI=3.226  Cost=8.573  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  15] nodes=['EN_8'] AoI=3.657  Cost=10.679  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  16] nodes=['EN_3'] AoI=3.299  Cost=8.417  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  17] nodes=['EN_9'] AoI=3.237  Cost=8.573  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  18] nodes=['EN_3', 'EN_0', 'EN_1'] AoI=7.627  Cost=18.542  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  19] nodes=['EN_0'] AoI=5.277  Cost=4.864  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  20] nodes=['EN_3'] AoI=3.680  Cost=8.710  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  21] nodes=['EN_1'] AoI=4.192  Cost=6.244  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  22] nodes=['EN_0'] AoI=3.838  Cost=4.864  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  23] nodes=['EN_5'] AoI=4.021  Cost=7.473  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  24] nodes=['EN_1'] AoI=3.872  Cost=6.244  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  25] nodes=['EN_8', 'EN_3', 'EN_4'] AoI=8.066  Cost=21.232  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  26] nodes=['EN_7'] AoI=4.151  Cost=7.860  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  27] nodes=['EN_3', 'EN_8', 'EN_2'] AoI=10.668  Cost=22.821  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  28] nodes=['EN_9'] AoI=3.993  Cost=7.281  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  29] nodes=['EN_9'] AoI=4.025  Cost=8.980  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  30] nodes=['EN_7', 'EN_3', 'EN_7'] AoI=9.294  Cost=18.942  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  31] nodes=['EN_6', 'EN_3', 'EN_1'] AoI=8.958  Cost=20.834  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  32] nodes=['EN_1'] AoI=6.730  Cost=8.055  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  33] nodes=['EN_6', 'EN_5', 'EN_6'] AoI=10.753  Cost=22.209  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  34] nodes=['EN_6', 'EN_7', 'EN_0'] AoI=13.698  Cost=19.291  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  35] nodes=['EN_1'] AoI=5.241  Cost=8.084  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  36] nodes=['EN_0'] AoI=7.096  Cost=7.367  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  37] nodes=['EN_6'] AoI=4.942  Cost=9.503  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  38] nodes=['EN_5'] AoI=3.241  Cost=8.668  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  39] nodes=['EN_1', 'EN_3', 'EN_3'] AoI=7.735  Cost=19.793  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  40] nodes=['EN_3'] AoI=6.582  Cost=6.969  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  41] nodes=['EN_8'] AoI=3.652  Cost=10.679  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  42] nodes=['EN_7'] AoI=4.986  Cost=5.984  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  43] nodes=['EN_2'] AoI=4.036  Cost=9.046  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  44] nodes=['EN_6'] AoI=3.701  Cost=8.875  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  45] nodes=['EN_2'] AoI=5.088  Cost=9.800  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  46] nodes=['EN_4'] AoI=3.151  Cost=7.384  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  47] nodes=['EN_7'] AoI=4.170  Cost=7.926  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  48] nodes=['EN_3'] AoI=4.134  Cost=6.969  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  49] nodes=['EN_1'] AoI=3.861  Cost=6.244  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  50] nodes=['EN_7', 'EN_8', 'EN_1'] AoI=8.762  Cost=20.684  mig=1
+[2026-04-26 10:23:33] [INFO] 
+========== Greedy Brute-Force ==========
+[2026-04-26 10:23:33] [INFO]   [Req   1] nodes=['EN_0'] AoI=3.190  Cost=6.894  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req   2] nodes=['EN_4'] AoI=3.151  Cost=7.384  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req   3] nodes=['EN_4'] AoI=1.808  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req   4] nodes=['EN_4'] AoI=1.803  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req   5] nodes=['EN_4'] AoI=2.150  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req   6] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.391  Cost=15.769  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req   7] nodes=['EN_0'] AoI=3.940  Cost=1.517  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req   8] nodes=['EN_4'] AoI=3.890  Cost=4.897  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req   9] nodes=['EN_0'] AoI=2.117  Cost=1.517  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  10] nodes=['EN_4'] AoI=1.803  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  11] nodes=['EN_0'] AoI=2.652  Cost=1.517  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  12] nodes=['EN_0'] AoI=2.122  Cost=1.517  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  13] nodes=['EN_4'] AoI=1.792  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  14] nodes=['EN_4'] AoI=1.792  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  15] nodes=['EN_0'] AoI=2.122  Cost=1.517  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  16] nodes=['EN_4'] AoI=1.803  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  17] nodes=['EN_4'] AoI=1.803  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  18] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.386  Cost=15.769  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  19] nodes=['EN_4'] AoI=3.890  Cost=4.897  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  20] nodes=['EN_0'] AoI=3.367  Cost=1.517  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  21] nodes=['EN_4'] AoI=2.257  Cost=1.790  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  22] nodes=['EN_4'] AoI=2.415  Cost=1.790  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  23] nodes=['EN_4'] AoI=2.775  Cost=1.790  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  24] nodes=['EN_4'] AoI=2.572  Cost=1.790  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  25] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.383  Cost=3.912  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  26] nodes=['EN_0'] AoI=3.843  Cost=1.517  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  27] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=5.689  Cost=3.912  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  28] nodes=['EN_4'] AoI=2.246  Cost=1.790  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  29] nodes=['EN_0'] AoI=4.005  Cost=1.517  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  30] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=4.715  Cost=3.912  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  31] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=6.314  Cost=3.912  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  32] nodes=['EN_4'] AoI=3.180  Cost=7.384  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  33] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=8.120  Cost=3.912  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  34] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=9.298  Cost=3.912  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  35] nodes=['EN_4'] AoI=3.228  Cost=6.922  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  36] nodes=['EN_4'] AoI=1.803  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  37] nodes=['EN_4'] AoI=2.171  Cost=1.545  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  38] nodes=['EN_4'] AoI=1.803  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  39] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.942  Cost=3.912  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  40] nodes=['EN_4'] AoI=4.037  Cost=4.897  mig=1
+[2026-04-26 10:23:33] [INFO]   [Req  41] nodes=['EN_4'] AoI=2.516  Cost=1.545  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  42] nodes=['EN_4'] AoI=2.261  Cost=1.790  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  43] nodes=['EN_4'] AoI=2.536  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  44] nodes=['EN_4'] AoI=2.115  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  45] nodes=['EN_4'] AoI=2.828  Cost=1.545  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  46] nodes=['EN_4'] AoI=2.999  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  47] nodes=['EN_4'] AoI=3.402  Cost=0.893  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  48] nodes=['EN_4'] AoI=2.261  Cost=1.790  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  49] nodes=['EN_4'] AoI=3.059  Cost=1.790  mig=0
+[2026-04-26 10:23:33] [INFO]   [Req  50] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.388  Cost=3.912  mig=0
+[2026-04-26 10:23:33] [INFO] 
+========== DP Oracle ==========
+[2026-04-26 10:23:33] [INFO]   >> Pre-computation pass...
+[2026-04-26 10:23:35] [INFO]      States per step: 10
+[2026-04-26 10:23:35] [INFO]   >> Forward DP pass...
+[2026-04-26 10:23:35] [INFO] 
+========== DP Real ==========
+[2026-04-26 10:23:35] [INFO]   >> Pre-computation pass...
+[2026-04-26 10:23:36] [INFO]      States per step: 10
+[2026-04-26 10:23:36] [INFO]   >> Forward DP pass...
+[2026-04-26 10:23:37] [INFO]   [Req   1] nodes=['EN_0'] AoI=3.190  Cost=6.894  mig=1
+[2026-04-26 10:23:37] [INFO]   [Req   2] nodes=['EN_0'] AoI=3.647  Cost=7.367  mig=1
+[2026-04-26 10:23:37] [INFO]   [Req   3] nodes=['EN_0'] AoI=1.797  Cost=0.877  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req   4] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req   5] nodes=['EN_0'] AoI=2.127  Cost=0.877  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req   6] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.408  Cost=15.769  mig=1
+[2026-04-26 10:23:37] [INFO]   [Req   7] nodes=['EN_0'] AoI=3.957  Cost=1.517  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req   8] nodes=['EN_0'] AoI=4.857  Cost=4.864  mig=1
+[2026-04-26 10:23:37] [INFO]   [Req   9] nodes=['EN_0'] AoI=2.827  Cost=1.517  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  10] nodes=['EN_0'] AoI=3.121  Cost=0.877  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  11] nodes=['EN_0'] AoI=3.825  Cost=1.517  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  12] nodes=['EN_0'] AoI=2.751  Cost=1.517  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  13] nodes=['EN_0'] AoI=1.781  Cost=0.877  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  14] nodes=['EN_0'] AoI=1.781  Cost=0.877  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  15] nodes=['EN_0'] AoI=2.122  Cost=1.517  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  16] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  17] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  18] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.386  Cost=15.769  mig=1
+[2026-04-26 10:23:37] [INFO]   [Req  19] nodes=['EN_0'] AoI=5.619  Cost=4.864  mig=1
+[2026-04-26 10:23:37] [INFO]   [Req  20] nodes=['EN_0'] AoI=4.295  Cost=1.517  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  21] nodes=['EN_0'] AoI=4.043  Cost=1.758  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  22] nodes=['EN_0'] AoI=4.179  Cost=1.758  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  23] nodes=['EN_0'] AoI=4.516  Cost=1.758  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  24] nodes=['EN_0'] AoI=4.291  Cost=1.758  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  25] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=4.633  Cost=3.912  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  26] nodes=['EN_0'] AoI=5.094  Cost=1.517  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  27] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=6.940  Cost=3.912  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  28] nodes=['EN_0'] AoI=5.708  Cost=1.758  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  29] nodes=['EN_0'] AoI=6.184  Cost=1.517  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  30] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=6.895  Cost=3.912  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  31] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=8.494  Cost=3.912  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  32] nodes=['EN_0'] AoI=10.268  Cost=7.367  mig=1
+[2026-04-26 10:23:37] [INFO]   [Req  33] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=10.762  Cost=3.912  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  34] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=11.940  Cost=3.912  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  35] nodes=['EN_0'] AoI=11.836  Cost=1.517  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  36] nodes=['EN_0'] AoI=8.767  Cost=0.877  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  37] nodes=['EN_0'] AoI=8.428  Cost=1.517  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  38] nodes=['EN_0'] AoI=7.422  Cost=0.877  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  39] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=9.113  Cost=3.912  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  40] nodes=['EN_0'] AoI=11.701  Cost=4.864  mig=1
+[2026-04-26 10:23:37] [INFO]   [Req  41] nodes=['EN_0'] AoI=10.160  Cost=1.517  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  42] nodes=['EN_0'] AoI=9.251  Cost=1.758  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  43] nodes=['EN_0'] AoI=9.514  Cost=0.877  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  44] nodes=['EN_0'] AoI=9.082  Cost=0.877  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  45] nodes=['EN_0'] AoI=9.775  Cost=1.517  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  46] nodes=['EN_0'] AoI=9.935  Cost=0.877  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  47] nodes=['EN_0'] AoI=10.327  Cost=0.877  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  48] nodes=['EN_0'] AoI=7.456  Cost=1.758  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  49] nodes=['EN_0'] AoI=8.231  Cost=1.758  mig=0
+[2026-04-26 10:23:37] [INFO]   [Req  50] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=10.006  Cost=3.912  mig=0
+[2026-04-26 10:50:32] [INFO] Loaded dataset data/dataset.pkl (nodes: 10, requests: 50)
+[2026-04-26 10:50:32] [INFO] Dataset: 10 edge nodes, 50 requests
+[2026-04-26 10:50:47] [INFO] 
+========== Random Baseline ==========
+[2026-04-26 10:50:47] [INFO]   [Req   1] nodes=['EN_6'] AoI=4.165  Cost=9.503  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req   2] nodes=['EN_8'] AoI=3.371  Cost=9.555  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req   3] nodes=['EN_1'] AoI=3.172  Cost=8.055  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req   4] nodes=['EN_5'] AoI=3.242  Cost=8.668  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req   5] nodes=['EN_1'] AoI=3.138  Cost=8.055  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req   6] nodes=['EN_1', 'EN_9', 'EN_9'] AoI=7.605  Cost=20.205  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req   7] nodes=['EN_1'] AoI=3.827  Cost=8.084  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req   8] nodes=['EN_9'] AoI=4.389  Cost=7.281  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req   9] nodes=['EN_8'] AoI=3.652  Cost=10.679  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  10] nodes=['EN_3'] AoI=3.299  Cost=8.417  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  11] nodes=['EN_8'] AoI=3.521  Cost=5.302  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  12] nodes=['EN_1'] AoI=3.228  Cost=8.084  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  13] nodes=['EN_1'] AoI=3.156  Cost=8.055  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  14] nodes=['EN_9'] AoI=3.226  Cost=8.573  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  15] nodes=['EN_1'] AoI=2.156  Cost=2.707  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  16] nodes=['EN_3'] AoI=3.299  Cost=8.417  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  17] nodes=['EN_4'] AoI=3.180  Cost=7.384  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  18] nodes=['EN_8', 'EN_7', 'EN_5'] AoI=8.738  Cost=22.158  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  19] nodes=['EN_9'] AoI=4.004  Cost=7.281  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  20] nodes=['EN_3'] AoI=3.386  Cost=8.710  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  21] nodes=['EN_0'] AoI=3.868  Cost=4.864  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  22] nodes=['EN_2'] AoI=5.644  Cost=8.232  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  23] nodes=['EN_5'] AoI=4.067  Cost=7.473  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  24] nodes=['EN_1'] AoI=3.872  Cost=6.244  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  25] nodes=['EN_0', 'EN_9', 'EN_7'] AoI=8.176  Cost=18.141  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  26] nodes=['EN_9'] AoI=4.548  Cost=8.980  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  27] nodes=['EN_6', 'EN_1', 'EN_3'] AoI=8.568  Cost=20.785  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  28] nodes=['EN_1'] AoI=2.594  Cost=3.137  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  29] nodes=['EN_2'] AoI=4.748  Cost=9.800  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  30] nodes=['EN_9', 'EN_1', 'EN_2'] AoI=8.660  Cost=21.022  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  31] nodes=['EN_7', 'EN_1', 'EN_4'] AoI=8.416  Cost=17.761  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  32] nodes=['EN_5'] AoI=3.242  Cost=8.668  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  33] nodes=['EN_5', 'EN_1', 'EN_8'] AoI=9.081  Cost=21.832  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  34] nodes=['EN_6', 'EN_4', 'EN_0'] AoI=8.504  Cost=18.538  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  35] nodes=['EN_2'] AoI=4.491  Cost=4.422  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  36] nodes=['EN_0'] AoI=3.169  Cost=7.367  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  37] nodes=['EN_0'] AoI=3.194  Cost=6.894  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  38] nodes=['EN_7'] AoI=3.720  Cost=7.926  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  39] nodes=['EN_3', 'EN_7', 'EN_5'] AoI=8.462  Cost=20.084  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  40] nodes=['EN_4'] AoI=3.890  Cost=4.897  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  41] nodes=['EN_8'] AoI=3.652  Cost=10.679  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  42] nodes=['EN_7'] AoI=4.986  Cost=5.984  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  43] nodes=['EN_8'] AoI=3.371  Cost=9.555  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  44] nodes=['EN_5'] AoI=3.231  Cost=8.668  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  45] nodes=['EN_2'] AoI=4.777  Cost=9.800  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  46] nodes=['EN_0'] AoI=3.140  Cost=7.367  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  47] nodes=['EN_1'] AoI=3.156  Cost=8.055  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  48] nodes=['EN_1'] AoI=3.877  Cost=6.244  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  49] nodes=['EN_1'] AoI=3.023  Cost=3.137  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  50] nodes=['EN_1', 'EN_3', 'EN_5'] AoI=9.082  Cost=20.108  mig=1
+[2026-04-26 10:50:47] [INFO] 
+========== Greedy Brute-Force ==========
+[2026-04-26 10:50:47] [INFO]   [Req   1] nodes=['EN_0'] AoI=3.190  Cost=6.894  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req   2] nodes=['EN_4'] AoI=3.151  Cost=7.384  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req   3] nodes=['EN_4'] AoI=1.808  Cost=0.893  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req   4] nodes=['EN_4'] AoI=1.803  Cost=0.893  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req   5] nodes=['EN_4'] AoI=2.150  Cost=0.893  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req   6] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.391  Cost=15.769  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req   7] nodes=['EN_0'] AoI=3.940  Cost=1.517  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req   8] nodes=['EN_4'] AoI=3.890  Cost=4.897  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req   9] nodes=['EN_0'] AoI=2.117  Cost=1.517  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  10] nodes=['EN_4'] AoI=1.803  Cost=0.893  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  11] nodes=['EN_0'] AoI=2.652  Cost=1.517  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  12] nodes=['EN_0'] AoI=2.122  Cost=1.517  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  13] nodes=['EN_4'] AoI=1.792  Cost=0.893  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  14] nodes=['EN_4'] AoI=1.792  Cost=0.893  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  15] nodes=['EN_0'] AoI=2.122  Cost=1.517  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  16] nodes=['EN_4'] AoI=1.803  Cost=0.893  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  17] nodes=['EN_4'] AoI=1.803  Cost=0.893  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  18] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.386  Cost=15.769  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  19] nodes=['EN_4'] AoI=3.890  Cost=4.897  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  20] nodes=['EN_0'] AoI=3.367  Cost=1.517  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  21] nodes=['EN_4'] AoI=2.257  Cost=1.790  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  22] nodes=['EN_4'] AoI=2.415  Cost=1.790  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  23] nodes=['EN_4'] AoI=2.775  Cost=1.790  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  24] nodes=['EN_4'] AoI=2.572  Cost=1.790  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  25] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.383  Cost=3.912  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  26] nodes=['EN_0'] AoI=3.843  Cost=1.517  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  27] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=5.689  Cost=3.912  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  28] nodes=['EN_4'] AoI=2.246  Cost=1.790  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  29] nodes=['EN_0'] AoI=4.005  Cost=1.517  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  30] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=4.715  Cost=3.912  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  31] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=6.314  Cost=3.912  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  32] nodes=['EN_4'] AoI=3.180  Cost=7.384  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  33] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=8.120  Cost=3.912  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  34] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=9.298  Cost=3.912  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  35] nodes=['EN_4'] AoI=3.228  Cost=6.922  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  36] nodes=['EN_4'] AoI=1.803  Cost=0.893  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  37] nodes=['EN_4'] AoI=2.171  Cost=1.545  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  38] nodes=['EN_4'] AoI=1.803  Cost=0.893  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  39] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.942  Cost=3.912  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  40] nodes=['EN_4'] AoI=4.037  Cost=4.897  mig=1
+[2026-04-26 10:50:47] [INFO]   [Req  41] nodes=['EN_4'] AoI=2.516  Cost=1.545  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  42] nodes=['EN_4'] AoI=2.261  Cost=1.790  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  43] nodes=['EN_4'] AoI=2.536  Cost=0.893  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  44] nodes=['EN_4'] AoI=2.115  Cost=0.893  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  45] nodes=['EN_4'] AoI=2.828  Cost=1.545  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  46] nodes=['EN_4'] AoI=2.999  Cost=0.893  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  47] nodes=['EN_4'] AoI=3.402  Cost=0.893  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  48] nodes=['EN_4'] AoI=2.261  Cost=1.790  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  49] nodes=['EN_4'] AoI=3.059  Cost=1.790  mig=0
+[2026-04-26 10:50:47] [INFO]   [Req  50] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.388  Cost=3.912  mig=0
+[2026-04-26 10:50:47] [INFO] 
+========== DP Oracle ==========
+[2026-04-26 10:50:47] [INFO]   >> Pre-computation pass...
+[2026-04-26 10:50:48] [INFO]      States per step: 10
+[2026-04-26 10:50:48] [INFO]   >> Forward DP pass...
+[2026-04-26 10:50:49] [INFO] 
+========== DP Real ==========
+[2026-04-26 10:50:49] [INFO]   >> Pre-computation pass...
+[2026-04-26 10:50:50] [INFO]      States per step: 10
+[2026-04-26 10:50:50] [INFO]   >> Forward DP pass...
+[2026-04-26 10:50:51] [INFO]   [Req   1] nodes=['EN_0'] AoI=3.190  Cost=6.894  mig=1
+[2026-04-26 10:50:51] [INFO]   [Req   2] nodes=['EN_0'] AoI=3.647  Cost=7.367  mig=1
+[2026-04-26 10:50:51] [INFO]   [Req   3] nodes=['EN_0'] AoI=1.797  Cost=0.877  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req   4] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req   5] nodes=['EN_0'] AoI=2.127  Cost=0.877  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req   6] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.408  Cost=15.769  mig=1
+[2026-04-26 10:50:51] [INFO]   [Req   7] nodes=['EN_0'] AoI=3.957  Cost=1.517  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req   8] nodes=['EN_0'] AoI=4.857  Cost=4.864  mig=1
+[2026-04-26 10:50:51] [INFO]   [Req   9] nodes=['EN_0'] AoI=2.827  Cost=1.517  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  10] nodes=['EN_0'] AoI=3.121  Cost=0.877  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  11] nodes=['EN_0'] AoI=3.825  Cost=1.517  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  12] nodes=['EN_0'] AoI=2.751  Cost=1.517  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  13] nodes=['EN_0'] AoI=1.781  Cost=0.877  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  14] nodes=['EN_0'] AoI=1.781  Cost=0.877  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  15] nodes=['EN_0'] AoI=2.122  Cost=1.517  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  16] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  17] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  18] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.386  Cost=15.769  mig=1
+[2026-04-26 10:50:51] [INFO]   [Req  19] nodes=['EN_0'] AoI=5.619  Cost=4.864  mig=1
+[2026-04-26 10:50:51] [INFO]   [Req  20] nodes=['EN_0'] AoI=4.295  Cost=1.517  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  21] nodes=['EN_0'] AoI=4.043  Cost=1.758  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  22] nodes=['EN_0'] AoI=4.179  Cost=1.758  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  23] nodes=['EN_0'] AoI=4.516  Cost=1.758  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  24] nodes=['EN_0'] AoI=4.291  Cost=1.758  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  25] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=4.633  Cost=3.912  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  26] nodes=['EN_0'] AoI=5.094  Cost=1.517  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  27] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=6.940  Cost=3.912  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  28] nodes=['EN_0'] AoI=5.708  Cost=1.758  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  29] nodes=['EN_0'] AoI=6.184  Cost=1.517  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  30] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=6.895  Cost=3.912  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  31] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=8.494  Cost=3.912  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  32] nodes=['EN_0'] AoI=10.268  Cost=7.367  mig=1
+[2026-04-26 10:50:51] [INFO]   [Req  33] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=10.762  Cost=3.912  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  34] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=11.940  Cost=3.912  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  35] nodes=['EN_0'] AoI=11.836  Cost=1.517  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  36] nodes=['EN_0'] AoI=8.767  Cost=0.877  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  37] nodes=['EN_0'] AoI=8.428  Cost=1.517  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  38] nodes=['EN_0'] AoI=7.422  Cost=0.877  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  39] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=9.113  Cost=3.912  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  40] nodes=['EN_0'] AoI=11.701  Cost=4.864  mig=1
+[2026-04-26 10:50:51] [INFO]   [Req  41] nodes=['EN_0'] AoI=10.160  Cost=1.517  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  42] nodes=['EN_0'] AoI=9.251  Cost=1.758  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  43] nodes=['EN_0'] AoI=9.514  Cost=0.877  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  44] nodes=['EN_0'] AoI=9.082  Cost=0.877  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  45] nodes=['EN_0'] AoI=9.775  Cost=1.517  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  46] nodes=['EN_0'] AoI=9.935  Cost=0.877  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  47] nodes=['EN_0'] AoI=10.327  Cost=0.877  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  48] nodes=['EN_0'] AoI=7.456  Cost=1.758  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  49] nodes=['EN_0'] AoI=8.231  Cost=1.758  mig=0
+[2026-04-26 10:50:51] [INFO]   [Req  50] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=10.006  Cost=3.912  mig=0
+[2026-04-26 10:53:25] [INFO] Generating synthetic dataset...
+[2026-04-26 10:53:25] [INFO] Dataset saved to data/dataset.pkl
+[2026-04-26 10:53:25] [INFO] Dataset: 10 edge nodes, 50 requests
+[2026-04-26 10:53:45] [INFO] 
+========== Random Baseline ==========
+[2026-04-26 10:53:45] [INFO]   [Req   1] nodes=['EN_3'] AoI=3.415  Cost=8.710  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req   2] nodes=['EN_8'] AoI=3.371  Cost=9.555  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req   3] nodes=['EN_3'] AoI=3.304  Cost=8.417  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req   4] nodes=['EN_4'] AoI=3.180  Cost=7.384  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req   5] nodes=['EN_6'] AoI=3.682  Cost=8.875  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req   6] nodes=['EN_5', 'EN_7', 'EN_8'] AoI=8.626  Cost=21.652  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req   7] nodes=['EN_7'] AoI=5.338  Cost=7.860  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req   8] nodes=['EN_1'] AoI=3.872  Cost=6.244  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req   9] nodes=['EN_3'] AoI=3.415  Cost=8.710  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  10] nodes=['EN_3'] AoI=3.468  Cost=8.417  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  11] nodes=['EN_1'] AoI=3.223  Cost=8.084  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  12] nodes=['EN_5'] AoI=3.357  Cost=9.145  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  13] nodes=['EN_0'] AoI=3.158  Cost=7.367  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  14] nodes=['EN_9'] AoI=3.226  Cost=8.573  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  15] nodes=['EN_8'] AoI=3.657  Cost=10.679  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  16] nodes=['EN_3'] AoI=3.299  Cost=8.417  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  17] nodes=['EN_9'] AoI=3.237  Cost=8.573  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  18] nodes=['EN_3', 'EN_0', 'EN_1'] AoI=7.627  Cost=18.542  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  19] nodes=['EN_0'] AoI=3.974  Cost=4.864  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  20] nodes=['EN_3'] AoI=3.386  Cost=8.710  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  21] nodes=['EN_1'] AoI=3.872  Cost=6.244  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  22] nodes=['EN_0'] AoI=3.838  Cost=4.864  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  23] nodes=['EN_5'] AoI=4.021  Cost=7.473  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  24] nodes=['EN_1'] AoI=3.872  Cost=6.244  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  25] nodes=['EN_8', 'EN_3', 'EN_4'] AoI=8.066  Cost=21.232  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  26] nodes=['EN_7'] AoI=4.151  Cost=7.860  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  27] nodes=['EN_3', 'EN_8', 'EN_2'] AoI=9.066  Cost=22.821  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  28] nodes=['EN_9'] AoI=3.993  Cost=7.281  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  29] nodes=['EN_9'] AoI=3.308  Cost=8.980  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  30] nodes=['EN_7', 'EN_3', 'EN_7'] AoI=9.294  Cost=18.942  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  31] nodes=['EN_6', 'EN_3', 'EN_1'] AoI=8.567  Cost=20.834  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  32] nodes=['EN_1'] AoI=5.958  Cost=8.055  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  33] nodes=['EN_6', 'EN_5', 'EN_6'] AoI=9.708  Cost=22.209  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  34] nodes=['EN_6', 'EN_7', 'EN_0'] AoI=9.173  Cost=19.291  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  35] nodes=['EN_1'] AoI=3.212  Cost=8.084  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  36] nodes=['EN_0'] AoI=3.169  Cost=7.367  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  37] nodes=['EN_6'] AoI=4.170  Cost=9.503  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  38] nodes=['EN_5'] AoI=3.241  Cost=8.668  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  39] nodes=['EN_1', 'EN_3', 'EN_3'] AoI=7.735  Cost=19.793  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  40] nodes=['EN_3'] AoI=6.569  Cost=6.969  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  41] nodes=['EN_8'] AoI=3.652  Cost=10.679  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  42] nodes=['EN_7'] AoI=4.986  Cost=5.984  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  43] nodes=['EN_2'] AoI=4.036  Cost=9.046  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  44] nodes=['EN_6'] AoI=3.701  Cost=8.875  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  45] nodes=['EN_2'] AoI=4.777  Cost=9.800  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  46] nodes=['EN_4'] AoI=3.151  Cost=7.384  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  47] nodes=['EN_7'] AoI=3.709  Cost=7.926  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  48] nodes=['EN_3'] AoI=4.134  Cost=6.969  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  49] nodes=['EN_1'] AoI=3.861  Cost=6.244  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  50] nodes=['EN_7', 'EN_8', 'EN_1'] AoI=8.762  Cost=20.684  mig=1
+[2026-04-26 10:53:45] [INFO] 
+========== Greedy Brute-Force ==========
+[2026-04-26 10:53:45] [INFO]   [Req   1] nodes=['EN_0'] AoI=3.190  Cost=6.894  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req   2] nodes=['EN_0'] AoI=3.140  Cost=7.367  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req   3] nodes=['EN_0'] AoI=1.797  Cost=0.877  mig=0
+[2026-04-26 10:53:45] [INFO]   [Req   4] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:53:45] [INFO]   [Req   5] nodes=['EN_0'] AoI=1.763  Cost=0.877  mig=0
+[2026-04-26 10:53:45] [INFO]   [Req   6] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.391  Cost=15.769  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req   7] nodes=['EN_4'] AoI=3.244  Cost=6.922  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req   8] nodes=['EN_0'] AoI=3.868  Cost=4.864  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req   9] nodes=['EN_0'] AoI=3.189  Cost=6.894  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  10] nodes=['EN_0'] AoI=3.169  Cost=7.367  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  11] nodes=['EN_0'] AoI=2.117  Cost=1.517  mig=0
+[2026-04-26 10:53:45] [INFO]   [Req  12] nodes=['EN_0'] AoI=2.122  Cost=1.517  mig=0
+[2026-04-26 10:53:45] [INFO]   [Req  13] nodes=['EN_0'] AoI=3.158  Cost=7.367  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  14] nodes=['EN_0'] AoI=3.158  Cost=7.367  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  15] nodes=['EN_0'] AoI=3.194  Cost=6.894  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  16] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:53:45] [INFO]   [Req  17] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:53:45] [INFO]   [Req  18] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.386  Cost=15.769  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  19] nodes=['EN_4'] AoI=3.890  Cost=4.897  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  20] nodes=['EN_0'] AoI=3.160  Cost=6.894  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  21] nodes=['EN_4'] AoI=2.257  Cost=1.790  mig=0
+[2026-04-26 10:53:45] [INFO]   [Req  22] nodes=['EN_4'] AoI=2.227  Cost=1.790  mig=0
+[2026-04-26 10:53:45] [INFO]   [Req  23] nodes=['EN_4'] AoI=2.256  Cost=1.790  mig=0
+[2026-04-26 10:53:45] [INFO]   [Req  24] nodes=['EN_4'] AoI=2.257  Cost=1.790  mig=0
+[2026-04-26 10:53:45] [INFO]   [Req  25] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.386  Cost=15.769  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  26] nodes=['EN_4'] AoI=3.210  Cost=6.922  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  27] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.372  Cost=3.912  mig=0
+[2026-04-26 10:53:45] [INFO]   [Req  28] nodes=['EN_0'] AoI=3.857  Cost=4.864  mig=1
+[2026-04-26 10:53:45] [INFO]   [Req  29] nodes=['EN_0'] AoI=3.160  Cost=6.894  mig=1
+[2026-04-26 10:53:46] [INFO]   [Req  30] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.375  Cost=15.769  mig=1
+[2026-04-26 10:53:46] [INFO]   [Req  31] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.353  Cost=3.912  mig=0
+[2026-04-26 10:53:46] [INFO]   [Req  32] nodes=['EN_4'] AoI=3.180  Cost=7.384  mig=1
+[2026-04-26 10:53:46] [INFO]   [Req  33] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=4.114  Cost=3.912  mig=0
+[2026-04-26 10:53:46] [INFO]   [Req  34] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.372  Cost=3.912  mig=0
+[2026-04-26 10:53:46] [INFO]   [Req  35] nodes=['EN_0'] AoI=3.179  Cost=6.894  mig=1
+[2026-04-26 10:53:46] [INFO]   [Req  36] nodes=['EN_0'] AoI=3.169  Cost=7.367  mig=1
+[2026-04-26 10:53:46] [INFO]   [Req  37] nodes=['EN_0'] AoI=3.194  Cost=6.894  mig=1
+[2026-04-26 10:53:46] [INFO]   [Req  38] nodes=['EN_0'] AoI=3.169  Cost=7.367  mig=1
+[2026-04-26 10:53:46] [INFO]   [Req  39] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.357  Cost=15.769  mig=1
+[2026-04-26 10:53:46] [INFO]   [Req  40] nodes=['EN_4'] AoI=3.890  Cost=4.897  mig=1
+[2026-04-26 10:53:46] [INFO]   [Req  41] nodes=['EN_0'] AoI=3.190  Cost=6.894  mig=1
+[2026-04-26 10:53:46] [INFO]   [Req  42] nodes=['EN_0'] AoI=3.873  Cost=4.864  mig=1
+[2026-04-26 10:53:46] [INFO]   [Req  43] nodes=['EN_4'] AoI=3.151  Cost=7.384  mig=1
+[2026-04-26 10:53:46] [INFO]   [Req  44] nodes=['EN_4'] AoI=1.792  Cost=0.893  mig=0
+[2026-04-26 10:53:46] [INFO]   [Req  45] nodes=['EN_0'] AoI=3.189  Cost=6.894  mig=1
+[2026-04-26 10:53:46] [INFO]   [Req  46] nodes=['EN_4'] AoI=1.774  Cost=0.893  mig=0
+[2026-04-26 10:53:46] [INFO]   [Req  47] nodes=['EN_4'] AoI=1.819  Cost=0.893  mig=0
+[2026-04-26 10:53:46] [INFO]   [Req  48] nodes=['EN_0'] AoI=3.873  Cost=4.864  mig=1
+[2026-04-26 10:53:46] [INFO]   [Req  49] nodes=['EN_0'] AoI=2.465  Cost=1.758  mig=0
+[2026-04-26 10:53:46] [INFO]   [Req  50] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.391  Cost=15.769  mig=1
+[2026-04-26 10:53:46] [INFO] 
+========== DP Oracle ==========
+[2026-04-26 10:53:46] [INFO]   >> Pre-computation pass...
+[2026-04-26 10:53:47] [INFO]      States per step: 10
+[2026-04-26 10:53:47] [INFO]   >> Forward DP pass...
+[2026-04-26 10:53:48] [INFO] 
+========== DP Real ==========
+[2026-04-26 10:53:48] [INFO]   >> Pre-computation pass...
+[2026-04-26 10:53:49] [INFO]      States per step: 10
+[2026-04-26 10:53:49] [INFO]   >> Forward DP pass...
+[2026-04-26 10:53:50] [INFO]   [Req   1] nodes=['EN_0'] AoI=3.190  Cost=6.894  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req   2] nodes=['EN_0'] AoI=3.140  Cost=7.367  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req   3] nodes=['EN_0'] AoI=1.797  Cost=0.877  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req   4] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req   5] nodes=['EN_0'] AoI=1.763  Cost=0.877  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req   6] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.391  Cost=15.769  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req   7] nodes=['EN_0'] AoI=4.016  Cost=6.894  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req   8] nodes=['EN_0'] AoI=3.868  Cost=4.864  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req   9] nodes=['EN_0'] AoI=3.189  Cost=6.894  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  10] nodes=['EN_0'] AoI=3.169  Cost=7.367  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  11] nodes=['EN_0'] AoI=2.117  Cost=1.517  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  12] nodes=['EN_0'] AoI=2.122  Cost=1.517  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  13] nodes=['EN_0'] AoI=3.158  Cost=7.367  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  14] nodes=['EN_0'] AoI=3.158  Cost=7.367  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  15] nodes=['EN_0'] AoI=3.194  Cost=6.894  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  16] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  17] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  18] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.386  Cost=15.769  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  19] nodes=['EN_0'] AoI=4.316  Cost=4.864  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  20] nodes=['EN_0'] AoI=3.160  Cost=6.894  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  21] nodes=['EN_0'] AoI=2.234  Cost=1.758  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  22] nodes=['EN_0'] AoI=2.205  Cost=1.758  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  23] nodes=['EN_0'] AoI=2.234  Cost=1.758  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  24] nodes=['EN_0'] AoI=2.234  Cost=1.758  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  25] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.386  Cost=15.769  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  26] nodes=['EN_0'] AoI=3.669  Cost=6.894  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  27] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.487  Cost=3.912  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  28] nodes=['EN_0'] AoI=3.857  Cost=4.864  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  29] nodes=['EN_0'] AoI=3.160  Cost=6.894  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  30] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.375  Cost=15.769  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  31] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.353  Cost=3.912  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  32] nodes=['EN_0'] AoI=4.746  Cost=7.367  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  33] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=4.577  Cost=3.912  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  34] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.372  Cost=3.912  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  35] nodes=['EN_0'] AoI=3.179  Cost=6.894  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  36] nodes=['EN_0'] AoI=3.169  Cost=7.367  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  37] nodes=['EN_0'] AoI=3.194  Cost=6.894  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  38] nodes=['EN_0'] AoI=3.169  Cost=7.367  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  39] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.357  Cost=15.769  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  40] nodes=['EN_0'] AoI=5.929  Cost=4.864  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  41] nodes=['EN_0'] AoI=3.190  Cost=6.894  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  42] nodes=['EN_0'] AoI=3.873  Cost=4.864  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  43] nodes=['EN_0'] AoI=3.215  Cost=7.367  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  44] nodes=['EN_0'] AoI=1.781  Cost=0.877  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  45] nodes=['EN_0'] AoI=3.189  Cost=6.894  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  46] nodes=['EN_0'] AoI=1.763  Cost=0.877  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  47] nodes=['EN_0'] AoI=1.796  Cost=0.877  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  48] nodes=['EN_0'] AoI=3.873  Cost=4.864  mig=1
+[2026-04-26 10:53:50] [INFO]   [Req  49] nodes=['EN_0'] AoI=2.465  Cost=1.758  mig=0
+[2026-04-26 10:53:50] [INFO]   [Req  50] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.391  Cost=15.769  mig=1
+[2026-04-26 10:56:56] [INFO] Loaded dataset data/dataset.pkl (nodes: 10, requests: 50)
+[2026-04-26 10:56:56] [INFO] Dataset: 10 edge nodes, 50 requests
+[2026-04-26 10:57:32] [INFO] 
+========== Random Baseline ==========
+[2026-04-26 10:57:32] [INFO]   [Req   1] nodes=['EN_7'] AoI=4.180  Cost=7.860  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req   2] nodes=['EN_1'] AoI=3.138  Cost=8.055  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req   3] nodes=['EN_3'] AoI=3.304  Cost=8.417  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req   4] nodes=['EN_4'] AoI=3.180  Cost=7.384  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req   5] nodes=['EN_8'] AoI=3.371  Cost=9.555  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req   6] nodes=['EN_5', 'EN_6', 'EN_1'] AoI=8.322  Cost=21.093  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req   7] nodes=['EN_1'] AoI=4.951  Cost=8.084  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req   8] nodes=['EN_2'] AoI=5.673  Cost=8.232  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req   9] nodes=['EN_5'] AoI=3.352  Cost=9.145  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  10] nodes=['EN_7'] AoI=3.720  Cost=7.926  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  11] nodes=['EN_3'] AoI=3.415  Cost=8.710  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  12] nodes=['EN_5'] AoI=3.357  Cost=9.145  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  13] nodes=['EN_1'] AoI=3.156  Cost=8.055  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  14] nodes=['EN_0'] AoI=3.158  Cost=7.367  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  15] nodes=['EN_3'] AoI=3.420  Cost=8.710  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  16] nodes=['EN_3'] AoI=3.299  Cost=8.417  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  17] nodes=['EN_5'] AoI=3.241  Cost=8.668  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  18] nodes=['EN_6', 'EN_0', 'EN_7'] AoI=9.108  Cost=19.214  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  19] nodes=['EN_3'] AoI=4.129  Cost=6.969  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  20] nodes=['EN_8'] AoI=3.623  Cost=10.679  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  21] nodes=['EN_0'] AoI=3.868  Cost=4.864  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  22] nodes=['EN_2'] AoI=5.644  Cost=8.232  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  23] nodes=['EN_7'] AoI=4.981  Cost=5.984  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  24] nodes=['EN_3'] AoI=4.129  Cost=6.969  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  25] nodes=['EN_3', 'EN_0', 'EN_5'] AoI=7.720  Cost=19.309  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  26] nodes=['EN_8'] AoI=3.623  Cost=10.679  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  27] nodes=['EN_7', 'EN_3', 'EN_5'] AoI=8.694  Cost=19.871  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  28] nodes=['EN_3'] AoI=4.118  Cost=6.969  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  29] nodes=['EN_2'] AoI=4.748  Cost=9.800  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  30] nodes=['EN_4', 'EN_2', 'EN_0'] AoI=8.676  Cost=18.130  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  31] nodes=['EN_6', 'EN_1', 'EN_1'] AoI=8.389  Cost=20.332  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  32] nodes=['EN_5'] AoI=3.242  Cost=8.668  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  33] nodes=['EN_0', 'EN_0', 'EN_1'] AoI=7.666  Cost=16.630  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  34] nodes=['EN_5', 'EN_7', 'EN_1'] AoI=8.319  Cost=19.775  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  35] nodes=['EN_1'] AoI=3.212  Cost=8.084  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  36] nodes=['EN_2'] AoI=4.065  Cost=9.046  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  37] nodes=['EN_1'] AoI=3.228  Cost=8.084  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  38] nodes=['EN_7'] AoI=3.720  Cost=7.926  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  39] nodes=['EN_7', 'EN_1', 'EN_0'] AoI=8.402  Cost=17.741  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  40] nodes=['EN_1'] AoI=6.398  Cost=6.244  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  41] nodes=['EN_1'] AoI=3.223  Cost=8.084  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  42] nodes=['EN_3'] AoI=4.134  Cost=6.969  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  43] nodes=['EN_4'] AoI=3.151  Cost=7.384  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  44] nodes=['EN_6'] AoI=3.701  Cost=8.875  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  45] nodes=['EN_4'] AoI=3.239  Cost=6.922  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  46] nodes=['EN_3'] AoI=3.270  Cost=8.417  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  47] nodes=['EN_9'] AoI=3.226  Cost=8.573  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  48] nodes=['EN_4'] AoI=3.895  Cost=4.897  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  49] nodes=['EN_4'] AoI=2.510  Cost=1.790  mig=0
+[2026-04-26 10:57:32] [INFO]   [Req  50] nodes=['EN_9', 'EN_6', 'EN_4'] AoI=8.319  Cost=20.079  mig=1
+[2026-04-26 10:57:32] [INFO] 
+========== Greedy Brute-Force ==========
+[2026-04-26 10:57:32] [INFO]   [Req   1] nodes=['EN_0'] AoI=3.190  Cost=6.894  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req   2] nodes=['EN_0'] AoI=3.140  Cost=7.367  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req   3] nodes=['EN_0'] AoI=1.797  Cost=0.877  mig=0
+[2026-04-26 10:57:32] [INFO]   [Req   4] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:57:32] [INFO]   [Req   5] nodes=['EN_0'] AoI=1.763  Cost=0.877  mig=0
+[2026-04-26 10:57:32] [INFO]   [Req   6] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.391  Cost=15.769  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req   7] nodes=['EN_4'] AoI=3.244  Cost=6.922  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req   8] nodes=['EN_0'] AoI=3.868  Cost=4.864  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req   9] nodes=['EN_0'] AoI=3.189  Cost=6.894  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  10] nodes=['EN_0'] AoI=3.169  Cost=7.367  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  11] nodes=['EN_0'] AoI=2.117  Cost=1.517  mig=0
+[2026-04-26 10:57:32] [INFO]   [Req  12] nodes=['EN_0'] AoI=2.122  Cost=1.517  mig=0
+[2026-04-26 10:57:32] [INFO]   [Req  13] nodes=['EN_0'] AoI=3.158  Cost=7.367  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  14] nodes=['EN_0'] AoI=3.158  Cost=7.367  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  15] nodes=['EN_0'] AoI=3.194  Cost=6.894  mig=1
+[2026-04-26 10:57:32] [INFO]   [Req  16] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:57:32] [INFO]   [Req  17] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:57:33] [INFO]   [Req  18] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.386  Cost=15.769  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  19] nodes=['EN_4'] AoI=3.890  Cost=4.897  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  20] nodes=['EN_0'] AoI=3.160  Cost=6.894  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  21] nodes=['EN_4'] AoI=2.257  Cost=1.790  mig=0
+[2026-04-26 10:57:33] [INFO]   [Req  22] nodes=['EN_4'] AoI=2.227  Cost=1.790  mig=0
+[2026-04-26 10:57:33] [INFO]   [Req  23] nodes=['EN_4'] AoI=2.256  Cost=1.790  mig=0
+[2026-04-26 10:57:33] [INFO]   [Req  24] nodes=['EN_4'] AoI=2.257  Cost=1.790  mig=0
+[2026-04-26 10:57:33] [INFO]   [Req  25] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.386  Cost=15.769  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  26] nodes=['EN_4'] AoI=3.210  Cost=6.922  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  27] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.372  Cost=3.912  mig=0
+[2026-04-26 10:57:33] [INFO]   [Req  28] nodes=['EN_0'] AoI=3.857  Cost=4.864  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  29] nodes=['EN_0'] AoI=3.160  Cost=6.894  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  30] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.375  Cost=15.769  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  31] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.353  Cost=3.912  mig=0
+[2026-04-26 10:57:33] [INFO]   [Req  32] nodes=['EN_4'] AoI=3.180  Cost=7.384  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  33] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=4.114  Cost=3.912  mig=0
+[2026-04-26 10:57:33] [INFO]   [Req  34] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.372  Cost=3.912  mig=0
+[2026-04-26 10:57:33] [INFO]   [Req  35] nodes=['EN_0'] AoI=3.179  Cost=6.894  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  36] nodes=['EN_0'] AoI=3.169  Cost=7.367  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  37] nodes=['EN_0'] AoI=3.194  Cost=6.894  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  38] nodes=['EN_0'] AoI=3.169  Cost=7.367  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  39] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.357  Cost=15.769  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  40] nodes=['EN_4'] AoI=3.890  Cost=4.897  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  41] nodes=['EN_0'] AoI=3.190  Cost=6.894  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  42] nodes=['EN_0'] AoI=3.873  Cost=4.864  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  43] nodes=['EN_4'] AoI=3.151  Cost=7.384  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  44] nodes=['EN_4'] AoI=1.792  Cost=0.893  mig=0
+[2026-04-26 10:57:33] [INFO]   [Req  45] nodes=['EN_0'] AoI=3.189  Cost=6.894  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  46] nodes=['EN_4'] AoI=1.774  Cost=0.893  mig=0
+[2026-04-26 10:57:33] [INFO]   [Req  47] nodes=['EN_4'] AoI=1.819  Cost=0.893  mig=0
+[2026-04-26 10:57:33] [INFO]   [Req  48] nodes=['EN_0'] AoI=3.873  Cost=4.864  mig=1
+[2026-04-26 10:57:33] [INFO]   [Req  49] nodes=['EN_0'] AoI=2.465  Cost=1.758  mig=0
+[2026-04-26 10:57:33] [INFO]   [Req  50] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.391  Cost=15.769  mig=1
+[2026-04-26 10:57:33] [INFO] 
+========== DP Oracle ==========
+[2026-04-26 10:57:33] [INFO]   >> Pre-computation pass...
+[2026-04-26 10:57:34] [INFO]      States per step: 10
+[2026-04-26 10:57:34] [INFO]   >> Forward DP pass...
+[2026-04-26 10:57:35] [INFO] 
+========== DP Real ==========
+[2026-04-26 10:57:35] [INFO]   >> Pre-computation pass...
+[2026-04-26 10:57:36] [INFO]      States per step: 10
+[2026-04-26 10:57:36] [INFO]   >> Forward DP pass...
+[2026-04-26 10:57:37] [INFO]   [Req   1] nodes=['EN_0'] AoI=3.190  Cost=6.894  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req   2] nodes=['EN_0'] AoI=3.140  Cost=7.367  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req   3] nodes=['EN_0'] AoI=1.797  Cost=0.877  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req   4] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req   5] nodes=['EN_0'] AoI=1.763  Cost=0.877  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req   6] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.391  Cost=15.769  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req   7] nodes=['EN_0'] AoI=4.016  Cost=6.894  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req   8] nodes=['EN_0'] AoI=3.868  Cost=4.864  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req   9] nodes=['EN_0'] AoI=3.189  Cost=6.894  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  10] nodes=['EN_0'] AoI=3.169  Cost=7.367  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  11] nodes=['EN_0'] AoI=2.117  Cost=1.517  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  12] nodes=['EN_0'] AoI=2.122  Cost=1.517  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  13] nodes=['EN_0'] AoI=3.158  Cost=7.367  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  14] nodes=['EN_0'] AoI=3.158  Cost=7.367  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  15] nodes=['EN_0'] AoI=3.194  Cost=6.894  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  16] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  17] nodes=['EN_0'] AoI=1.792  Cost=0.877  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  18] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.386  Cost=15.769  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  19] nodes=['EN_0'] AoI=4.316  Cost=4.864  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  20] nodes=['EN_0'] AoI=3.160  Cost=6.894  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  21] nodes=['EN_0'] AoI=2.234  Cost=1.758  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  22] nodes=['EN_0'] AoI=2.205  Cost=1.758  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  23] nodes=['EN_0'] AoI=2.234  Cost=1.758  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  24] nodes=['EN_0'] AoI=2.234  Cost=1.758  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  25] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.386  Cost=15.769  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  26] nodes=['EN_0'] AoI=3.669  Cost=6.894  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  27] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.487  Cost=3.912  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  28] nodes=['EN_0'] AoI=3.857  Cost=4.864  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  29] nodes=['EN_0'] AoI=3.160  Cost=6.894  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  30] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.375  Cost=15.769  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  31] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.353  Cost=3.912  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  32] nodes=['EN_0'] AoI=4.746  Cost=7.367  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  33] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=4.577  Cost=3.912  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  34] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=3.372  Cost=3.912  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  35] nodes=['EN_0'] AoI=3.179  Cost=6.894  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  36] nodes=['EN_0'] AoI=3.169  Cost=7.367  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  37] nodes=['EN_0'] AoI=3.194  Cost=6.894  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  38] nodes=['EN_0'] AoI=3.169  Cost=7.367  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  39] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.357  Cost=15.769  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  40] nodes=['EN_0'] AoI=5.929  Cost=4.864  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  41] nodes=['EN_0'] AoI=3.190  Cost=6.894  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  42] nodes=['EN_0'] AoI=3.873  Cost=4.864  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  43] nodes=['EN_0'] AoI=3.215  Cost=7.367  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  44] nodes=['EN_0'] AoI=1.781  Cost=0.877  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  45] nodes=['EN_0'] AoI=3.189  Cost=6.894  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  46] nodes=['EN_0'] AoI=1.763  Cost=0.877  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  47] nodes=['EN_0'] AoI=1.796  Cost=0.877  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  48] nodes=['EN_0'] AoI=3.873  Cost=4.864  mig=1
+[2026-04-26 10:57:37] [INFO]   [Req  49] nodes=['EN_0'] AoI=2.465  Cost=1.758  mig=0
+[2026-04-26 10:57:37] [INFO]   [Req  50] nodes=['EN_0', 'EN_0', 'EN_0'] AoI=7.391  Cost=15.769  mig=1

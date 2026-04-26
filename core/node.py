@@ -1,0 +1,16 @@
+from core.basic_object import BasicObject
+
+
+class Node(BasicObject):
+    def __init__(self, id):
+        super().__init__(id)
+
+
+class EdgeNode(Node):
+    def __init__(self, id, compute_power, cost, memory):
+        super().__init__(id)
+        self.compute_power = compute_power
+        self.cost = cost
+        self.available_time = 0
+        self.memory = memory
+        self.available_memory = memory

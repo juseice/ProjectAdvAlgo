@@ -1,0 +1,12 @@
+from latency.transmission import compute_transmission_delay
+
+
+def compute_sensing_delay(network, sensor_id, target_node_id, data_size):
+    path = network.get_path(sensor_id, target_node_id, data_size)
+    if not path:
+        return float('inf')
+
+    bandwidth = network.get_path_bandwidth(path)
+    trans_delay = compute_transmission_delay(data_size, bandwidth)
+    t_acq = 1
+    return t_acq + trans_delay
